@@ -1,0 +1,8 @@
+{
+    "app_name": "Smart Campus System",
+    "currency": "AED",
+    "timezone": "UTC+4 (UAE)",
+    "backup_path": "backups/",
+    "auto_backup": true,
+    "backup_frequency": "Daily"
+}

@@ -1,0 +1,34 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment files
+.env
+.venv
+.venv-pyside # Specific to your PySide6 virtual environment
+
+# IDE-specific files (e.g., VS Code)
+.vscode/
+
+# Database and application specific ignored files
+# Temporarily saved login information (contains credentials, should NOT be committed)
+settings/login.json
+
+# Old UI modules no longer in use
+# ui/restaurant/dashboard.cpyt # Likely obsolete if RestaurantView is gone
+# ui/delivery/dashboard.py    # Likely obsolete
+# ui/delivery/__pycache__/__dashboard.cpyth # Likely obsolete
+# ui/customer/__pycache__/restaurant_view. # Likely obsolete
+# ui/customer/__pycache__/__dashboard.cpyth # Likely obsolete
+
+# New UI modules that might generate pycache
+ui/__pycache__/
+ui/admin/__pycache__/
+ui/student/__pycache__/ # Assuming you have a student dashboard/view
+ui/faculty/__pycache__/ # Assuming you have a faculty dashboard/view
+ui/dialogs/__pycache__/ # If you've moved dialogs to a separate folder
+
+# Backup files
+/backups
